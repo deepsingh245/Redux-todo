@@ -1,13 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
+import Todo from './components/Todo';
 
 function App() {
   return (
-    <div className="App">
-      <div className='container'>
-        <input className='input' placeholder='enter your item'></input>
-      </div>
-    </div>
+   <>
+   <Todo/>
+   </>
   );
 }
 
