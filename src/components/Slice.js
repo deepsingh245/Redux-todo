@@ -19,13 +19,13 @@ export const todoSlice = createSlice({
             state.todos = state.todos.filter((todo) => 
             todo.id !== action.payload)
         } ,
-        updateTodo:(state,action)=>{
-            let index = state.todos.findIndex((item)=> item.id===action
-            .payload.id)
-            if (index>=0){
-                state.todos[index]=action.payload;
-                }
-        },
+        // updateTodo:(state,action)=>{
+        //     let index = state.todos.findIndex((item)=> item.id===action
+        //     .payload.id)
+        //     if (index>=0){
+        //         state.todos[index]=action.payload;
+        //         }
+        // },
     }
 })
 
